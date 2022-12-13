@@ -1,8 +1,8 @@
 public class Family {
     
     private Person[] members;
-    public Family(Person[] m) {
-        members=m;
+    public Family(Person[] members) {
+        this.members=members;
     }
 
     public int adults() {
